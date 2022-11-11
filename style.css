@@ -1,0 +1,202 @@
+/* ---------------Abschnitt1---------------*/
+
+
+
+.abschnitt1{
+    display: flex;
+    flex: auto;
+    flex-direction: column;
+    background-color: #1f2937;
+    height: 25em;   
+}
+
+body{
+    margin: 0;
+}
+
+.container1{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 80px;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+
+.container2 {
+    color: red;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+
+.container3{
+    display: flex;
+    /*justify-content: center;*/
+    padding-bottom: 30px;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.Hero{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    padding-bottom: 5px;
+}
+
+.Herosecondary{
+    color: #e5e7eb;
+    font-size: 18px;
+    padding-bottom: 5px;
+}
+
+.Logo{
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+.Headerlinks{
+    text-decoration: none;
+    text-decoration-line: none;
+    color: #e5e7eb;
+    font-size: 18px;
+    
+}
+
+.signupbutton{
+    background-color: #3882f6;
+    color: white;
+    border-radius: 20px;
+    width: 75px;
+}
+
+/* -----------------------Abschnitt2-------*/
+
+.abschnitt2{
+    display: flex;
+    flex-direction: column;
+    height: 25em;
+}
+
+.infoheader{
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    font-weight: bolder;
+    padding-bottom: 20px;
+}
+
+.infoimgs{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.infoimages{
+    height: 200px;
+    width: 200px;
+    padding: 0px 10px 10px 0px;
+    border-color: #3882f6;
+    border: #3882f6;
+}
+
+.infobeschreibung{
+    display: flex;
+    justify-content: center;
+
+}
+
+.infobeschreibungtext{
+    height: 200px;
+    width: 200px;
+    padding: 0px 10px 10px 0px;
+    text-align: center;
+}
+
+/*------------------Abschnitt3----------------*/
+
+
+.abschnitt3{
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    justify-content: center;
+    height: 25em;
+    
+}
+
+.quote{
+    font-size: 36px;
+    font-style: italic;
+    padding: 0 20% 0;
+    color: #1f2937;
+}
+
+.quoteauth{
+    text-align: right;
+    padding: 0 25% 0;
+    color: black;
+    font-weight: bold;
+}
+
+
+/*---------------------abschnitt4--------------------*/
+
+.abschnitt4{
+    display: flex;
+    flex-direction: column;
+    height: 25em;
+}
+.abschnitt4a{
+    display: flex;
+    height: 75%;
+    justify-content: center;
+    
+    
+}
+.abschnitt4b{
+    display: flex;
+    height: 25%;
+    background-color: #1f2937;
+    justify-content: center;
+    align-items: center;
+}
+
+.container4a{
+    display: flex;
+    background-color: #3882f6;
+    justify-self: center;
+    align-self: center;
+    height: 40%;
+    width: 80%;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+
+}
+.container4atext{
+    width: 75%;
+    justify-self: center;
+}
+
+.signupbutton2{
+    width: 15%;
+    background-color: #3882f6;
+    color: white;
+    border-radius: 20px;
+    
+
+}
+
+.calltoactiontitle{
+    color: white;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.calltoactiontext{
+    color: white;
+    font-size: 15px;
+}
+
